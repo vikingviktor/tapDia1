@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD X<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mosaic</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="resource/estilosmosaic.css">
+  </head>
+  <body>
+​
+    <div class="container">
+      <div class="row">
+        <div class="pull-middle barranav">
+            <img class="logo" src="resource/logo.png">
+            <div class="navcenterPacientes">
+            <h1 class="userconJefe">Jefe de Área</h1>
+              <ul class="nav nav-pills" role="tablist">
+                <li role="presentation" class="controls"><a href="#" class="btn btn-success">
+                <span class="glyphicon glyphicon-plus-sign"></span>
+                Asignar paciente
+              </a></li>
+                <li role="presentation" class="controls"><a href="pauta1.html" class="btn btn-primary">
+                <span class="glyphicon glyphicon-book"></span>
+                Consultar pauta
+              </a></li>
+              <li role="presentation" class="controls"><a href="#" class="btn btn-primary">
+                <span class="glyphicon glyphicon-list-alt"></span>
+                Estadísticas e informes
+              </a></li><li role="presentation" class="controls"><a href="PruebaJefeArea.html" class="btn btn-warning">
+                <span class="glyphicon glyphicon-arrow-left"></span>
+                Atras
+              </a></li>
+                <li role="presentation" class="signedus"><h4><a href="#">Log Out</a></h4></li>
+              </ul>
+            </div>
+          </div>
+        <div class="panel panel-default">
+          <!-- Default panel contents -->
+          <div class="panel-heading">
+            Pacientes Doctor (nombre doctor)
+            <a class="navbar-form navbar-middle" role="search">
+                  <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Nombre Paciente">
+                  </div>
+                  <button type="submit" class="btn btn-default">Buscar</button>
+              </a>
+            <p class="navbar-text navbar-right media-middle">Signed in as <a href="#" class="navbar-link">Jefe de Área 1</a></p>
+          </div>
+          <!-- Table -->
+          <table class="table table-striped">
+            <tr>
+              <th>
+                Paciente
+              </th>
+              <th>
+                Fecha última modificación de pauta
+              </th>
+              <th>
+                Doctor Asignado
+              </th>
+            </tr>
+            <tr>
+              <td><input type="radio" name="name" value="doctor" required> Paciente1</td>
+              <td>1123</td>
+              <td>
+              <select id="selecciona" name="selecciona" required>
+          <option value="0">-- Seleccione un nuevo doctor --</option>
+          <option value="2">Doctor1</option>
+          <option value="4">Doctor2</option>
+          <option value="6">Doctor3</option>
+          <option value="8">Doctor4</option>
+          <option value="10">Doctor5</option>
+         </select><br><br>
+         </td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="name" value="doctor" required> Paciente2</td>
+              <td>2132</td>
+          <td>
+              <select id="selecciona" name="selecciona" required>
+          <option value="0">-- Seleccione un nuevo doctor --</option>
+          <option value="2">Doctor1</option>
+          <option value="4">Doctor2</option>
+          <option value="6">Doctor3</option>
+          <option value="8">Doctor4</option>
+          <option value="10">Doctor5</option>
+         </select><br><br>
+         </td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="name" value="doctor" required> Paciente3</td>
+              <td>3123</td>
+          <td>
+              <select id="selecciona" name="selecciona" required>
+          <option value="0">-- Seleccione un nuevo doctor --</option>
+          <option value="2">Doctor1</option>
+          <option value="4">Doctor2</option>
+          <option value="6">Doctor3</option>
+          <option value="8">Doctor4</option>
+          <option value="10">Doctor5</option>
+         </select><br><br>
+         </td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="name" value="doctor" required> Paciente4</td>
+              <td>4123</td>
+         <td>
+              <select id="selecciona" name="selecciona" required>
+          <option value="0">-- Seleccione un nuevo doctor --</option>
+          <option value="2">Doctor1</option>
+          <option value="4">Doctor2</option>
+          <option value="6">Doctor3</option>
+          <option value="8">Doctor4</option>
+          <option value="10">Doctor5</option>
+         </select><br><br>
+         </td>
+            </tr>
+            <tr>
+              <td><input type="radio" name="name" value="doctor" required> Paciente5</td>
+              <td>5132</td>
+          <td>
+              <select id="selecciona" name="selecciona" required>
+          <option value="0">-- Seleccione un nuevo doctor --</option>
+          <option value="2">Doctor1</option>
+          <option value="4">Doctor2</option>
+          <option value="6">Doctor3</option>
+          <option value="8">Doctor4</option>
+          <option value="10">Doctor5</option>
+         </select><br><br>
+         </td>
+            </tr>
+          </table>
+        </div>
+​
+      </div>
+      <footer><b>Jefe de Área</b></footer>
+    </div>
+​
+  </body>
+</html>
